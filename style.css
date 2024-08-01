@@ -239,41 +239,45 @@
     }
 }
 
-@media (max-width:615px) {
+@media (max-width:800px) {
     .img-block{
         flex-direction:column;
         align-items: center;
+    }
+
+    .moon > img{
+        height: 789px;
     }
 
     .my_main{
         flex-direction: column;
     }
     .text_block{
-        height: 613px;
-        width: 595.6px;
+        height: 400px;
+        width: 766px;
         border: 1px solid #000002;
     }
     .text_block > div > button {
         position: absolute;
-        left: 42%;
-        top: 55%;
+        left: 43%;
+        top: 68%;
     }
     .text_block >div > span:first-child {
         position: absolute;
-        left: 31%;
+        left: 35%;
         top: 20%;
         
     }
     .text_block > div > span:nth-child(2) {
         position: absolute;
-        left: 33%;
-        top: 32%;
+        left: 37%;
+        top: 36%;
     }
     .text_block > div > span:nth-child(3) {
         
         position: absolute;
         left: 12%;
-        top: 38%;
+        top: 46%;
         right: 10%;
     }
     .links > span{
