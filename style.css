@@ -232,14 +232,14 @@
     border-top: 1px solid #fff;
 }
 
-@media (max-width:976px) {
+@media screen and (max-width:976px) {
     .my_nav > li > a{
         background-color: #04396b;
         padding: 20px 80px 20px 80px !important;
     }
 }
 
-@media (max-width:800px) {
+@media  screen and (max-width:992px) {
     .img-block{
         flex-direction:column;
         align-items: center;
