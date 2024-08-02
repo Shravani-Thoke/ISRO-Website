@@ -246,15 +246,15 @@
     }
 
     .moon > img{
-        height: 789px;
+        height: 415px;
     }
 
     .my_main{
         flex-direction: column;
     }
     .text_block{
-        height: 400px;
-        width: 766px;
+        height: 450px;
+        width: 403px;
         border: 1px solid #000002;
     }
     .text_block > div > button {
